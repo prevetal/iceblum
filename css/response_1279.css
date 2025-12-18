@@ -1373,6 +1373,35 @@
 
 
 
+    /*------------------
+        Article info
+    ------------------*/
+    .modal.article_info > .f-button.is-close-btn,
+    .is-compact .modal.article_info > .f-button.is-close-btn
+    {
+        top: var(--inner_gap_m);
+        right: var(--inner_gap_m);
+
+        --f-button-width: 60px;
+        --f-button-height: 60px;
+        --f-button-border-radius: 50%;
+        --f-button-color: var(--light_color);
+        --f-button-hover-color: var(--light_color);
+        --f-button-svg-width: 20px;
+        --f-button-svg-height: 20px;
+        --f-button-bg: rgba(212, 213, 229, .04);
+        --f-button-hover-bg: rgba(212, 213, 229, .04);
+        --f-button-active-bg: rgba(212, 213, 229, .04);
+    }
+
+
+    .article_info .title
+    {
+        font-size: 32px;
+    }
+
+
+
     /*------------
         Footer
     ------------*/

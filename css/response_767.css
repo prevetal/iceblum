@@ -1250,6 +1250,43 @@
 
 
 
+    /*------------------
+        Article info
+    ------------------*/
+    .modal.article_info
+    {
+        padding-block: 8px var(--cont_padding);
+        padding-inline: 8px;
+    }
+
+
+    .modal.article_info > .f-button.is-close-btn,
+    .is-compact .modal.article_info > .f-button.is-close-btn
+    {
+        top: var(--inner_gap_ss);
+        right: var(--inner_gap_ss);
+    }
+
+
+    .article_info .data
+    {
+        padding-inline: var(--inner_gap_s);
+    }
+
+
+    .article_info .title
+    {
+        font-size: 28px;
+    }
+
+
+    .article_info .desc
+    {
+        padding-right: var(--inner_gap_s);
+    }
+
+
+
     /*------------
         Footer
     ------------*/

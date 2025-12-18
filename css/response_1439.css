@@ -1280,6 +1280,33 @@
 
 
 
+    /*------------------
+        Article info
+    ------------------*/
+    .modal.article_info
+    {
+        padding-block: 20px;
+        padding-inline: 20px;
+
+        --modal_width: 800px;
+    }
+
+
+    .article_info .data
+    {
+        padding-inline: var(--cont_padding);
+
+        gap: var(--inner_gap_m);
+    }
+
+
+    .article_info .title
+    {
+        font-size: 36px;
+    }
+
+
+
     /*------------
         Footer
     ------------*/

@@ -3946,6 +3946,12 @@ aside .links .items a.active
 }
 
 
+.article_info .image img
+{
+    min-height: 300px;
+}
+
+
 .article_info .data
 {
     position: relative;
