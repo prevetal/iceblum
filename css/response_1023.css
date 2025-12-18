@@ -1,0 +1,1119 @@
+@media print,
+(max-width: 1023px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size_title_b: 72px;
+        --font_size_title: 56px;
+        --font_size_title_s: 40px;
+    }
+
+
+
+    /*---------------
+        Load more
+    ---------------*/
+    .load_more .btn
+    {
+        width: 100%;
+        height: 56px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .contacts_link,
+    header .socials
+    {
+        display: none;
+    }
+
+
+    header .logo img
+    {
+        width: 186px;
+        height: 48px;
+    }
+
+
+    header .menu .btn,
+    header .services_menu .btn
+    {
+        width: 128px;
+        height: 48px;
+    }
+
+
+    header .order_btn
+    {
+        width: 200px;
+        height: 48px;
+    }
+
+
+
+    header .menu .mini_modal
+    {
+        width: 488px;
+    }
+
+
+    header .menu .mini_modal .about
+    {
+        width: 256px;
+    }
+
+
+
+    header .services_menu .mini_modal
+    {
+        right: -240px;
+    }
+
+
+    header .services_menu .catalog .grid_row
+    {
+        --count_per_line: 3;
+    }
+
+
+    header .services_menu .catalog .category
+    {
+        padding: 20px;
+    }
+
+
+    header .services_menu .catalog .category .sub
+    {
+        line-height: 1;
+    }
+
+
+    header .services_menu .catalog .category .sub a
+    {
+        padding-block: 8px;
+    }
+
+
+    header .services_menu .catalog .category .thumb
+    {
+        right: -20px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .field > .icon
+    {
+        width: 24px;
+    }
+
+
+    .form .checkbox
+    {
+        min-height: 22px;
+        padding-left: 34px;
+    }
+
+
+    .form .checkbox .check
+    {
+        width: 22px;
+    }
+
+
+    .form .exp
+    {
+        font-size: var(--font_size_m);
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block h1
+    {
+        font-size: 44px;
+    }
+
+
+    .text_block h2
+    {
+        font-size: 28px;
+    }
+
+
+    .text_block h3
+    {
+        font-size: 22px;
+    }
+
+
+    .text_block h2[data-number]:before,
+    .text_block h3[data-number]:before
+    {
+        width: 28px;
+        height: 26px;
+    }
+
+
+    .text_block .images_slider
+    {
+        width: calc(100% + var(--cont_padding_double));
+        margin-inline: calc(var(--cont_padding) * -1);
+
+        border-radius: 0;
+    }
+
+
+    .text_block .images_slider img
+    {
+        border-radius: 0;
+    }
+
+
+    .text_block .accordion_item .head .title
+    {
+        font-size: 22px;
+    }
+
+
+    .text_block blockquote
+    {
+        padding-block: 40px;
+
+        font-size: 28px;
+
+        background-position: 0 40px;
+    }
+
+
+    .text_block table td.time,
+    .text_block table td.price
+    {
+        width: 140px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        padding-bottom: var(--cont_padding);
+    }
+
+
+    .first_section .name
+    {
+        font-size: 18px;
+    }
+
+
+    .first_section .name .icon
+    {
+        width: 20px;
+    }
+
+
+    .first_section .logo
+    {
+        margin-block: -8px -4px;
+    }
+
+
+    .first_section .title
+    {
+        width: 300px;
+    }
+
+
+    .first_section .exp
+    {
+        font-size: 18px;
+    }
+
+
+    .first_section .about_title
+    {
+        width: 300px;
+
+        font-size: 20px;
+    }
+
+
+    .first_section .about_desc
+    {
+        width: 312px;
+    }
+
+
+    .first_section .light
+    {
+        top: 20px;
+
+        width: 720px;
+    }
+
+
+    .first_section .image
+    {
+        width: 640px;
+        margin-right: -600px;
+    }
+
+
+
+    /*-------------
+        Catalog
+    -------------*/
+    .catalog .grid_row
+    {
+        --count_per_line: 2;
+    }
+
+
+
+    /*----------------------
+        Popular services
+    ----------------------*/
+    .popular_services .grid_row
+    {
+        --count_per_line: 2;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .grid_row
+    {
+        --count_per_line: 1;
+    }
+
+
+
+    .about_info .philosophy
+    {
+        min-height: 0;
+    }
+
+
+    .about_info .philosophy .title
+    {
+        justify-content: flex-start;
+
+        width: 100%;
+        margin-left: 0;
+
+        gap: 0 var(--inner_gap_m);
+    }
+
+
+    .about_info .philosophy .title > span
+    {
+        font-size: 72px;
+    }
+
+
+    .about_info .philosophy .image
+    {
+        right: -24px;
+    }
+
+
+
+    .about_info .why_we .info .equipment img
+    {
+        width: 360px;
+    }
+
+
+
+    /*-----------------------
+        Highest standards
+    -----------------------*/
+    .highest_standards .cont
+    {
+        justify-content: flex-start;
+
+        gap: var(--cont_padding_double);
+    }
+
+
+    .highest_standards .logo
+    {
+        width: 148px;
+    }
+
+
+    .highest_standards .desc
+    {
+        width: 100%;
+    }
+
+
+
+    /*-------------
+        Founder
+    -------------*/
+    .founder .data
+    {
+        padding-block: var(--inner_gap) 0;
+        padding-inline: var(--cont_padding);
+    }
+
+
+    .founder .data .text
+    {
+        width: 100%;
+    }
+
+
+    .founder .data .text .big
+    {
+        font-size: 22px;
+    }
+
+
+    .founder .data .text .sep
+    {
+        margin-block: var(--inner_gap_m);
+    }
+
+
+    .founder .data .bg
+    {
+        display: none;
+    }
+
+
+    .founder .data .person
+    {
+        position: relative;
+        left: 0;
+
+        width: 100%;
+        margin-top: var(--inner_gap);
+    }
+
+
+    .founder .data .person .image
+    {
+        width: 480px;
+        max-width: 100%;
+        height: auto;
+        margin-inline: auto;
+    }
+
+
+    .founder .data .person .image img
+    {
+        width: 100%;
+        height: auto;
+    }
+
+
+    .founder .data .person .info
+    {
+        bottom: var(--cont_padding_double);
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .grid_row
+    {
+        --count_per_line: 2;
+        --offset_h: var(--inner_gap_m);
+        --offset_v: var(--inner_gap_m);
+    }
+
+
+    .articles .article
+    {
+        padding-block: var(--cont_padding_half) var(--cont_padding);
+        padding-inline: var(--cont_padding_half);
+    }
+
+
+    .articles .article .name
+    {
+        width: calc(100% - 64px);
+    }
+
+
+    .articles .article .icon
+    {
+        width: 48px;
+    }
+
+
+
+    /*-----------------
+        Order block
+    -----------------*/
+    .order_block .info
+    {
+        width: 100%;
+    }
+
+
+    .order_block .form
+    {
+        width: 100%;
+        margin-block: var(--cont_padding_double) 0;
+    }
+
+
+    .order_block .sep
+    {
+        position: relative;
+        top: 0;
+        left: 0;
+
+        display: grid;
+        align-items: center;
+
+        width: calc(100% + (var(--cont_padding_double) + 16px) * 2);
+        height: auto;
+        margin-block: var(--cont_padding_double) 0;
+        margin-inline: calc((var(--cont_padding_double) + 8px) * -1);
+
+        grid-auto-flow: column;
+        grid-auto-columns: max-content;
+    }
+
+
+    .order_block .image
+    {
+        display: none;
+    }
+
+
+
+    /*------------
+        Cases
+    ------------*/
+    .cases .case .stickers > *
+    {
+        min-width: 80px;
+        padding-block: var(--inner_gap_ss);
+        padding-inline: var(--inner_gap_s);
+
+        font-size: 16px;
+    }
+
+
+    .cases .case .info
+    {
+        padding-inline: var(--inner_gap_s);
+    }
+
+
+    .cases .case .name
+    {
+        font-size: 22px;
+    }
+
+
+
+    /*-----------------
+        Specialists
+    -----------------*/
+    .specialists .grid_row
+    {
+        --count_per_line: 2;
+    }
+
+
+
+    /*---------------------
+        Specialist info
+    ---------------------*/
+    .specialist_info .col
+    {
+        display: none;
+    }
+
+
+    .specialist_info .data
+    {
+        width: 100%;
+    }
+
+
+    .specialist_info .data > .photo
+    {
+        display: block;
+    }
+
+
+    .specialist_info .block_title.small
+    {
+        font-size: 22px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .data .phone
+    {
+        font-size: 28px;
+    }
+
+
+
+    .contacts_info .map
+    {
+        width: 100%;
+        height: 600px;
+    }
+
+
+
+    .contacts_info .entrance
+    {
+        width: 100%;
+        margin-top: var(--cont_padding);
+    }
+
+
+
+    /*----------------
+        Price list
+    ----------------*/
+    .price_list .section .title
+    {
+        margin-bottom: -24px;
+
+        font-size: 20px;
+    }
+
+
+    .price_list .section .title .icon
+    {
+        width: 20px;
+    }
+
+
+    .price_list .table_data .titles,
+    .price_list .table_data .item
+    {
+        gap: var(--cont_padding);
+    }
+
+
+
+    /*---------------
+        Text page
+    ---------------*/
+    .text_page .data_wrap
+    {
+        width: calc(100% + var(--cont_padding_double));
+        margin-inline: calc(var(--cont_padding) * -1);
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services .tabs
+    {
+        display: grid;
+        overflow: auto;
+
+        width: calc(100% + var(--cont_padding_double));
+        margin-inline: calc(var(--cont_padding) * -1);
+        padding-inline: var(--cont_padding);
+
+        gap: var(--inner_gap_ss);
+        grid-auto-flow: column;
+        grid-auto-columns: max-content;
+        scroll-padding: 0 var(--cont_padding);
+        scroll-snap-type: x mandatory;
+        scrollbar-color: transparent transparent !important;
+        scrollbar-width: thin !important;
+    }
+
+
+    .services .tabs::-webkit-scrollbar
+    {
+        display: none !important;
+
+        width: 0 !important;
+        height: 0 !important;
+
+        background-color: transparent !important;
+    }
+
+
+    .services .tabs::-webkit-scrollbar-thumb
+    {
+        background-color: transparent !important;
+    }
+
+
+    .services .tabs.grid_row > *
+    {
+        width: 315px;
+        margin-bottom: 0;
+        margin-left: 0;
+
+        scroll-snap-align: start;
+    }
+
+
+    .services .tabs .btn
+    {
+        min-height: 100px;
+
+        font-size: 22px;
+    }
+
+
+    .services .service .name
+    {
+        font-size: 28px;
+    }
+
+
+    .services .service .name span
+    {
+        max-width: calc(100% - 44px);
+    }
+
+
+    .services .service .name .icon
+    {
+        width: 34px;
+    }
+
+
+    .services .service .price .val
+    {
+        font-size: 20px;
+    }
+
+
+
+    /*------------
+        Why we
+    ------------*/
+    .why_we .col
+    {
+        width: 100%;
+    }
+
+
+    .why_we .data
+    {
+        padding-block: var(--cont_padding_double);
+    }
+
+
+    .why_we .data:after
+    {
+        display: none;
+    }
+
+
+    .why_we .info
+    {
+        width: 100%;
+    }
+
+
+    .why_we * + .info
+    {
+        margin-top: var(--cont_padding_double);
+    }
+
+
+    .why_we .info .desc.big
+    {
+        font-size: 20px;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages .grid_row
+    {
+        --count_per_line: 2;
+        --offset_h: var(--cont_padding_double);
+        --offset_v: var(--cont_padding_double);
+    }
+
+
+
+    /*--------------
+        Remember
+    --------------*/
+    .remember .data
+    {
+        min-height: 0;
+        padding-block: var(--cont_padding_double);
+    }
+
+
+    .remember .title
+    {
+        width: calc(100% - var(--outside_gap));
+
+        font-size: 52px;
+    }
+
+
+    .remember .title .mark
+    {
+        font-size: 20px;
+    }
+
+
+    .remember .title .mark .icon
+    {
+        width: 24px;
+    }
+
+
+    .remember .desc
+    {
+        width: calc(100% - var(--outside_gap));
+        margin-top: var(--cont_padding_double);
+    }
+
+
+    .remember .logo img
+    {
+        width: 80px;
+    }
+
+
+    .remember .image
+    {
+        right: calc(var(--outside_gap) * -1);
+        left: auto;
+
+        min-width: 200px;
+
+        transform: none;
+    }
+
+
+
+    /*---------
+        FAQ
+    ---------*/
+    .FAQ .col
+    {
+        width: 100%;
+        margin-bottom: var(--cont_padding_double);
+    }
+
+
+    .FAQ .col .icon
+    {
+        width: 36px;
+    }
+
+
+    .FAQ .col .btn
+    {
+        width: 220px;
+        margin-top: 0;
+    }
+
+
+    .FAQ .accordion
+    {
+        width: 100%;
+    }
+
+
+    .FAQ .accordion_item .head .title
+    {
+        font-size: 22px;
+    }
+
+
+
+    /*------------------
+        Service head
+    ------------------*/
+    .service_head .data
+    {
+        padding-block: var(--cont_padding_double);
+    }
+
+
+    .service_head .info
+    {
+        width: 100%;
+    }
+
+
+    .service_head .title
+    {
+        font-size: 60px;
+    }
+
+
+    .service_head .equipment
+    {
+        display: none;
+    }
+
+
+
+    /*--------------------
+        Service prices
+    --------------------*/
+    .service_prices .item
+    {
+        padding-block: var(--inner_gap_s);
+        padding-inline: var(--inner_gap_m);
+    }
+
+
+    .service_prices .item .name
+    {
+        font-size: 22px;
+    }
+
+
+
+    /*-------------------
+        Service cases
+    -------------------*/
+    .service_cases .case .stickers > *
+    {
+        min-width: 80px;
+        padding-block: var(--inner_gap_ss);
+        padding-inline: var(--inner_gap_s);
+
+        font-size: 16px;
+    }
+
+
+
+    /*-----------------
+        Service why
+    -----------------*/
+    .service_why .grid_row
+    {
+        --count_per_line: 2;
+    }
+
+
+    .service_why .item
+    {
+        min-height: 260px;
+    }
+
+
+
+    /*-------------------
+        Service areas
+    -------------------*/
+    .service_areas .grid_row
+    {
+        --count_per_line: 3;
+    }
+
+
+    .service_areas .item .name,
+    .service_areas .item .desc
+    {
+        width: calc(100% - 36px);
+    }
+
+
+
+    /*--------------------
+        Important info
+    --------------------*/
+    .important_info .data
+    {
+        padding-block: var(--cont_padding_double);
+    }
+
+
+    .important_info .col .title
+    {
+        font-size: 20px;
+    }
+
+
+    .important_info .col .title .icon
+    {
+        width: 24px;
+    }
+
+
+    .important_info .col .tabs .btn
+    {
+        font-size: 32px;
+    }
+
+
+    .important_info .tab_content.active
+    {
+        width: 100%;
+    }
+
+
+    .important_info .items
+    {
+        margin-top: var(--inner_gap);
+    }
+
+
+
+    /*-------------
+        Reviews
+    -------------*/
+    .reviews .head > div:first-child
+    {
+        max-width: calc(100% - 176px);
+    }
+
+
+    .reviews .ratings .rating
+    {
+        min-width: 168px;
+        padding: 8px;
+    }
+
+
+    .reviews .ratings .rating .logo
+    {
+        height: 40px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .row + .row
+    {
+        margin-top: 34px;
+    }
+
+    footer .row + .row.border
+    {
+        margin-top: 34px;
+        padding-top: 34px;
+    }
+
+
+    footer .logo img
+    {
+        width: 186px;
+        height: 48px;
+    }
+
+
+    footer .btns
+    {
+        display: none;
+    }
+
+
+    footer .order_btn
+    {
+        width: 320px;
+        height: 60px;
+    }
+
+
+    footer .links
+    {
+        display: none;
+
+        width: 30%;
+    }
+
+
+    footer .contacts
+    {
+        justify-content: center;
+
+        width: 100%;
+        margin-top: 0;
+    }
+
+
+    footer .contacts .phone
+    {
+        font-size: 28px;
+    }
+
+
+    footer .contacts .location
+    {
+        justify-content: center;
+
+        margin-top: var(--cont_padding);
+    }
+
+
+    footer .contacts .location .icon
+    {
+        width: 22px;
+    }
+
+
+    footer .contacts .socials
+    {
+        justify-content: center;
+
+        margin-top: var(--cont_padding);
+        padding-left: var(--cont_padding_half);
+    }
+
+
+    footer .docs
+    {
+        align-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        width: 100%;
+
+        text-align: center;
+
+        gap: var(--cont_padding_half);
+    }
+
+
+    footer .creator
+    {
+        margin-inline: auto;
+        margin-top: var(--cont_padding);
+    }
+
+
+    footer .exp
+    {
+        margin-top: 34px;
+    }
+}

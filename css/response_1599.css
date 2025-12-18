@@ -1,0 +1,828 @@
+@media print,
+(max-width: 1599px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    .swiper-button-prev
+    {
+        left: var(--cont_padding);
+    }
+
+    .swiper-button-next
+    {
+        right: var(--cont_padding);
+    }
+
+
+
+    /*---------------
+        Accordion
+    ---------------*/
+    .accordion_item .head
+    {
+        padding-block: 40px;
+        padding-inline: calc(var(--outside_gap_ss) - 1px);
+    }
+
+
+    .accordion_item .head .title
+    {
+        font-size: 40px;
+    }
+
+
+    .accordion_item .data
+    {
+        padding-block: 0 calc(var(--outside_gap_ss) - 1px);
+        padding-inline: calc(var(--outside_gap_ss) - 1px);
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .menu .mini_modal .links
+    {
+        font-size: 24px;
+    }
+
+
+    header .menu .mini_modal .about
+    {
+        width: 300px;
+        padding-block: var(--inner_gap);
+        padding-inline: var(--inner_gap);
+    }
+
+
+
+    header .services_menu .catalog .category
+    {
+        padding-bottom: var(--outside_gap_s);
+    }
+
+
+    header .services_menu .catalog .category .thumb
+    {
+        right: 0;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+    aside .block .title
+    {
+        padding-inline: var(--cont_padding);
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block h1
+    {
+        font-size: 60px;
+    }
+
+
+    .text_block h2
+    {
+        margin-bottom: var(--inner_gap_m);
+
+        font-size: 36px;
+    }
+
+
+    .text_block * + h2,
+    .text_block * + h3
+    {
+        margin-top: var(--cont_padding_double);
+    }
+
+
+    .text_block blockquote
+    {
+        margin-block: var(--outside_gap_s);
+        padding-block: var(--cont_padding_double);
+        padding-left: var(--outside_gap_s);
+
+        font-size: 40px;
+
+        background-position: 0 var(--cont_padding_double);
+        background-size: 48px auto;
+    }
+
+    .text_block .images_slider,
+    .text_block .table_wrap
+    {
+        margin-block: var(--cont_padding_double);
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        padding-bottom: 0;
+    }
+
+
+    .first_section .name
+    {
+        padding-inline: 32px;
+
+        font-size: 24px;
+    }
+
+
+    .first_section .name .icon
+    {
+        width: 32px;
+    }
+
+
+    .first_section .logo
+    {
+        width: calc(100% + 160px);
+        margin-block: -28px -10px;
+        margin-inline: -80px;
+    }
+
+
+    .first_section .exp
+    {
+        font-size: 24px;
+    }
+
+
+    .first_section .about_title
+    {
+        width: 480px;
+
+        font-size: 32px;
+    }
+
+
+    .first_section .about_desc
+    {
+        width: 480px;
+    }
+
+
+    .first_section .image
+    {
+        top: 24px;
+
+        width: 1024px;
+        margin-right: -980px;
+    }
+
+
+
+    /*-------------
+        Catalog
+    -------------*/
+    .catalog .category
+    {
+        min-height: 480px;
+        padding: 40px;
+    }
+
+
+    .catalog .category .name
+    {
+        font-size: 36px;
+    }
+
+
+    .catalog .category .thumb
+    {
+        right: -30px;
+    }
+
+
+
+    /*----------------------
+        Popular services
+    ----------------------*/
+    .popular_services .grid_row
+    {
+        --offset_h: var(--cont_padding);
+        --offset_v: var(--cont_padding);
+    }
+
+
+    .popular_services .service
+    {
+        padding: var(--cont_padding);
+    }
+
+
+    .popular_services .service .name
+    {
+        font-size: 40px;
+    }
+
+
+    .popular_services .service .price
+    {
+        width: calc(100% - 92px);
+    }
+
+
+    .popular_services .service .price .val
+    {
+        font-size: 24px;
+    }
+
+
+    .popular_services .service .icon
+    {
+        width: 68px;
+    }
+
+
+    .popular_services .all_link
+    {
+        margin-top: var(--cont_padding_double);
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .philosophy
+    {
+        min-height: 480px;
+        padding-block: var(--outside_gap_s);
+        padding-inline: var(--cont_padding_double);
+    }
+
+
+    .about_info .philosophy .title
+    {
+        width: 740px;
+    }
+
+
+    .about_info .philosophy .sticker
+    {
+        padding-inline: 32px;
+
+        font-size: 22px;
+    }
+
+
+    .about_info .philosophy .sticker .icon
+    {
+        width: 32px;
+    }
+
+
+    .about_info .philosophy .title > span
+    {
+        font-size: 124px;
+        line-height: calc(100% - 6px);
+    }
+
+
+    .about_info .text
+    {
+        padding: var(--cont_padding_double);
+
+        font-size: 22px;
+    }
+
+
+
+    .about_info .why_we .data
+    {
+        padding-block: var(--outside_gap_s);
+        padding-inline: var(--cont_padding_double);
+    }
+
+
+    .about_info .why_we .info .title
+    {
+        margin-bottom: var(--cont_padding);
+    }
+
+
+    .about_info .why_we .info .equipment img
+    {
+        width: 440px;
+    }
+
+
+    .about_info .why_we .image
+    {
+        left: 10.375%;
+    }
+
+
+
+    /*-------------
+        Founder
+    -------------*/
+    .founder .data
+    {
+        padding-block: var(--outside_gap_m);
+        padding-inline: var(--cont_padding_double);
+    }
+
+
+    .founder .data .text
+    {
+        width: 600px;
+    }
+
+
+    .founder .data .text .big
+    {
+        font-size: 32px;
+    }
+
+
+    .founder .data .text .sep
+    {
+        margin-block: 40px;
+    }
+
+
+    .founder .data .person .post
+    {
+        padding-inline: 32px;
+    }
+
+
+    .founder .data .person .name
+    {
+        padding-inline: 32px;
+
+        font-size: 22px;
+    }
+
+
+    .founder .data .person .name .icon
+    {
+        width: 32px;
+        min-width: 32px;
+    }
+
+
+
+    /*--------------------
+        Our advantages
+    --------------------*/
+    .our_advantages
+    {
+        padding-bottom: 0;
+    }
+
+
+    .our_advantages .item:first-child
+    {
+        width: 260px;
+        min-width: 260px;
+    }
+
+
+    .our_advantages .item:last-child
+    {
+        width: 256px;
+        min-width: 256px;
+    }
+
+
+    .our_advantages .item + .item > *
+    {
+        padding-left: var(--inner_gap_m);
+    }
+
+
+    .our_advantages .item > *
+    {
+        padding-right: var(--inner_gap_m);
+    }
+
+
+    .our_advantages .item .icon
+    {
+        width: 36px;
+        padding: 0;
+    }
+
+
+    .our_advantages .item .name
+    {
+        font-size: 30px;
+    }
+
+
+    .our_advantages .item .desc
+    {
+        padding-top: var(--inner_gap_m);
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .article
+    {
+        padding-block: var(--cont_padding_half) 27px;
+        padding-inline: var(--cont_padding_half);
+    }
+
+
+    .articles .article .info
+    {
+        padding-inline: var(--inner_gap_ss);
+    }
+
+
+    .articles .article .name
+    {
+        width: calc(100% - 88px);
+
+        font-size: 30px;
+    }
+
+
+    .articles .article .icon
+    {
+        width: 68px;
+    }
+
+
+
+    /*-----------------
+        Specialists
+    -----------------*/
+    .specialists .person
+    {
+        padding: var(--cont_padding_half);
+    }
+
+
+    .specialists .person .name
+    {
+        font-size: 36px;
+    }
+
+
+    .specialists .person .info
+    {
+        bottom: var(--cont_padding_half);
+    }
+
+
+    .specialists .person .info
+    {
+        bottom: var(--cont_padding_half);
+
+        width: calc(100% - var(--cont_padding));
+        padding-block: var(--cont_padding_half);
+    }
+
+
+    .specialists .person .speciality
+    {
+        margin-top: var(--cont_padding_half);
+    }
+
+
+
+    /*---------------------
+        Specialist info
+    ---------------------*/
+    .specialist_info .col
+    {
+        width: 480px;
+    }
+
+
+    .specialist_info .data
+    {
+        width: calc(100% - 528px);
+    }
+
+
+    .specialist_info .person_info
+    {
+        gap: var(--cont_padding_half);
+    }
+
+
+    .specialist_info .block_title
+    {
+        font-size: 36px;
+    }
+
+
+    .specialist_info .reviews .grid_row > *:nth-child(2n) ~ *
+    {
+        display: none;
+    }
+
+
+
+    /*-----------
+        Certs
+    -----------*/
+    .certs .cert .thumb
+    {
+        height: 124px;
+    }
+
+
+
+    /*-------------
+        Reviews
+    -------------*/
+    .reviews .grid_row
+    {
+        --count_per_line: 2;
+        --offset_h: var(--cont_padding);
+        --offset_v: var(--cont_padding);
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info
+    {
+        gap: var(--cont_padding_double);
+    }
+
+
+    .contacts_info .data
+    {
+        width: calc(100% - 640px);
+    }
+
+
+    .contacts_info .data .phone
+    {
+        font-size: 36px;
+    }
+
+
+    .contacts_info .data .messengers .icon
+    {
+        width: 32px;
+    }
+
+
+    .contacts_info .ratings
+    {
+        width: 592px;
+        margin-right: 0;
+    }
+
+
+    .contacts_info .ratings .label
+    {
+        margin-bottom: var(--inner_gap_s);
+    }
+
+
+
+    .contacts_info .map
+    {
+        width: calc(100% - 666px);
+        padding: calc(var(--cont_padding) - 1px);
+    }
+
+
+    .contacts_info .map .path
+    {
+        padding: calc(var(--cont_padding_double) - 1px);
+    }
+
+
+    .contacts_info .map .path a
+    {
+        width: 240px;
+        height: 80px;
+    }
+
+
+
+    .contacts_info .entrance
+    {
+        width: 642px;
+        padding: calc(var(--cont_padding) - 1px);
+    }
+
+
+    .contacts_info .entrance .title
+    {
+        font-size: 36px;
+    }
+
+
+    .contacts_info .entrance .title span
+    {
+        width: calc(100% - 92px);
+    }
+
+
+    .contacts_info .entrance .title .icon
+    {
+        width: 68px;
+    }
+
+
+    .contacts_info .entrance .image
+    {
+        margin-top: var(--cont_padding);
+    }
+
+
+
+    /*----------------
+        Price list
+    ----------------*/
+    .price_list .section .title
+    {
+        margin-bottom: -31px;
+        margin-left: var(--cont_padding_double);
+        padding-inline: 32px;
+
+        font-size: 26px;
+    }
+
+
+    .price_list .section .title .icon
+    {
+        width: 30px;
+    }
+
+
+    .price_list .table_data .titles,
+    .price_list .table_data .item
+    {
+        padding-inline: var(--cont_padding_double);
+    }
+
+
+
+    /*---------------
+        Text page
+    ---------------*/
+    .text_page .data_wrap
+    {
+        padding-block: calc(var(--outside_gap_s) - 1px);
+    }
+
+
+    .text_page .content_flex .content
+    {
+        width: calc(100% - var(--sidebar_width) - var(--outside_gap_ss));
+    }
+
+
+    .text_page .type
+    {
+        padding-inline: 32px;
+
+        font-size: 24px;
+    }
+
+
+    .text_page .type .icon
+    {
+        width: 28px;
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services .service .name
+    {
+        font-size: 40px;
+    }
+
+
+
+    /*------------
+        Why we
+    ------------*/
+    .why_we .data
+    {
+        min-height: 0;
+        padding-block: var(--outside_gap_s);
+        padding-inline: var(--cont_padding_double);
+    }
+
+
+    .why_we .col
+    {
+        width: 468px;
+    }
+
+
+    .why_we .col .title
+    {
+        font-size: 72px;
+    }
+
+
+    .why_we .col .desc
+    {
+        font-size: 22px;
+    }
+
+
+    .why_we .info
+    {
+        width: 400px;
+    }
+
+
+    .why_we .info .title
+    {
+        padding-inline: 32px;
+
+        font-size: 22px;
+    }
+
+
+    .why_we .info .title .icon
+    {
+        width: 30px;
+    }
+
+
+    .why_we .info .standarts
+    {
+        margin-top: 0;
+        padding-top: var(--cont_padding);
+    }
+
+
+    .why_we .image
+    {
+        margin-left: var(--cont_padding);
+    }
+
+
+
+    /*------------------
+        Service head
+    ------------------*/
+    .service_head .data
+    {
+        min-height: 650px;
+    }
+
+
+    .service_head .title
+    {
+        font-size: 92px;
+    }
+
+
+
+    /*-----------------
+        Service why
+    -----------------*/
+    .service_why .item
+    {
+        min-height: 340px;
+    }
+
+
+
+    /*--------------------
+        Important info
+    --------------------*/
+    .important_info .data
+    {
+        padding-inline: var(--outside_gap_s);
+    }
+
+
+
+    /*-----------------
+        Order block
+    -----------------*/
+    .order_block .image
+    {
+        transform: translateX(calc(-50% + 60px));
+    }
+}
