@@ -1896,6 +1896,13 @@ aside .block
 }
 
 
+aside .block.sticky
+{
+    position: sticky;
+    top: var(--cont_padding);
+}
+
+
 aside .block .title
 {
     position: relative;
@@ -2164,6 +2171,9 @@ aside .links .items a.active
     --form_line_offset: var(--inner_gap_ss);
     --form_input_height: 80px;
     --form_input_padding_inline: 29px;
+    --form_textarea_height: 160px;
+    --form_textarea_padding_block: 15px;
+    --form_textarea_padding_inline: 29px;
 }
 
 
@@ -2253,7 +2263,33 @@ aside .links .items a.active
 }
 
 
-.form .input:focus
+.form textarea
+{
+    display: block;
+
+    width: 100%;
+    height: var(--form_textarea_height);
+    padding-block: var(--form_textarea_padding_block);
+    padding-inline: var(--form_textarea_padding_inline);
+
+    font-family: var(--font_family2);
+    font-size: var(--font_size);
+
+    resize: none;
+    transition: border-color .2s linear;
+
+    color: var(--light_color);
+    border: 1px solid var(--form_border_color);
+    border-radius: var(--form_border_radius);
+    background: var(--form_bg_color);
+
+    --custom_scroll_width: 4px;
+    --custom_scroll_height: 4px;
+}
+
+
+.form .input:focus,
+.form textarea:focus
 {
     border-color: var(--form_focus_color);
 }
@@ -2361,8 +2397,18 @@ aside .links .items a.active
     font-family: var(--font_family2);
     line-height: calc(100% + 8px);
 
+    transition: .2s linear;
+
     border-radius: var(--border_radius_s);
     background: var(--primary_color);
+}
+
+
+.form .submit_btn:disabled
+{
+    pointer-events: none;
+
+    opacity: .7;
 }
 
 
@@ -3890,8 +3936,6 @@ aside .links .items a.active
     padding-block: 17px 49px;
     padding-inline: 17px;
 
-    vertical-align: top;
-
     --modal_width: 840px;
 }
 
@@ -4571,6 +4615,9 @@ aside .links .items a.active
     min-width: 189px;
     padding: 8px 16px 10px 16px;
 
+    text-decoration: none;
+
+    color: currentColor;
     border-radius: var(--border_radius_ss);
     background: var(--blue_soft_color);
 }
@@ -5314,6 +5361,9 @@ aside .links .items a.active
     min-width: 189px;
     padding: 8px 16px 10px;
 
+    text-decoration: none;
+
+    color: currentColor;
     border: 1px solid var(--blue_soft_color);
     border-radius: var(--border_radius_ss);
 }
@@ -6323,6 +6373,9 @@ aside .links .items a.active
 
     padding: 8px 16px 10px;
 
+    text-decoration: none;
+
+    color: currentColor;
     border-radius: var(--border_radius_ss);
     background: var(--blue_soft_color);
 }

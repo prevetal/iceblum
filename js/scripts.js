@@ -529,6 +529,17 @@ document.addEventListener('DOMContentLoaded', function() {
 
 		$('html, body').stop().animate({ scrollTop: $activeTabContent.offset().top }, 1000)
 	}
+
+
+	// Forms
+	$('.form .agree .checkbox input').change(function(e) {
+		const form = $(this).closest('form'),
+			submitBtn = form.find('.submit_btn')
+
+		$(this).is(':checked')
+			? submitBtn.prop('disabled', false)
+			: submitBtn.prop('disabled', true)
+	})
 })
 
 

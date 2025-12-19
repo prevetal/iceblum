@@ -527,9 +527,9 @@
 							</div>
 
 							<div class="btns">
-								<button class="order_btn">Записаться на процедуру</button>
+								<button class="order_btn modal_btn" data-modal="order_modal">Записаться на процедуру</button>
 
-								<button class="add_review_btn">Написать отзыв</button>
+								<button class="add_review_btn modal_btn" data-modal="add_review_modal">Написать отзыв</button>
 							</div>
 						</div>
 
@@ -872,7 +872,7 @@
 									</div>
 
 									<div class="submit">
-										<button type="submit" class="submit_btn">Получить скидку</button>
+										<button type="submit" class="submit_btn" disabled>Получить скидку</button>
 									</div>
 
 									<div class="exp"><span>*</span> Консультация включает диагностику и план лечения. Акция действует для новых клиентов.</div>
@@ -1050,7 +1050,50 @@
 				</div>
 
 				<div class="submit">
-					<button type="submit" class="submit_btn">Получить скидку</button>
+					<button type="submit" class="submit_btn" disabled>Получить скидку</button>
+				</div>
+
+				<div class="exp"><span>*</span> Консультация включает диагностику и план лечения. Акция действует для новых клиентов.</div>
+			</form>
+		</section>
+
+
+		<section class="modal" id="add_review_modal">
+			<div class="modal_title">Написать отзыв</div>
+
+			<div class="modal_desc">Оставьте свои контакты, и наш администратор свяжется с вами в течение 15 минут, чтобы согласовать удобное время.</div>
+
+			<form action="" class="form">
+				<div class="line">
+					<div class="field">
+						<svg class="icon"><use xlink:href="images/sprite.svg#ic_user"></use></svg>
+
+						<input type="text" name="" value="" class="input" placeholder="Ваше имя">
+					</div>
+				</div>
+
+				<div class="line">
+					<div class="field">
+						<textarea name="" placeholder="Ваш отзыв"></textarea>
+					</div>
+				</div>
+
+				<div class="line agree">
+					<div class="field">
+						<label class="checkbox">
+							<input type="checkbox" name="agree">
+
+							<div class="check">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+							</div>
+
+							<div>Я соглашаюсь на обработку персональных данных</div>
+						</label>
+					</div>
+				</div>
+
+				<div class="submit">
+					<button type="submit" class="submit_btn" disabled>Получить скидку</button>
 				</div>
 
 				<div class="exp"><span>*</span> Консультация включает диагностику и план лечения. Акция действует для новых клиентов.</div>
